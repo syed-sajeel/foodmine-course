@@ -1,0 +1,4 @@
+<div>
+  <input #s type="text" placeholder="Search Food Mine!" (change)="search(s.value)"[value]="searchTerm">
+  <button class="search-button" (click)="search(s.value)">Search</button>
+</div>
