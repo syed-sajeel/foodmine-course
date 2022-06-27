@@ -58,3 +58,12 @@
 		2. Add ts
 		3. Add Html
 		4. Add Css
+10. Not Found!
+	1. Generate component
+		1. Add ts
+		2. Add Html
+		3. Add Css
+	2. Add To Pages
+		1. Home Page
+		2. Food Page
+		3. Cart Page
