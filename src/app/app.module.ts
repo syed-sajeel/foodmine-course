@@ -13,8 +13,8 @@ import { CartPageComponent } from './components/pages/cart-page/cart-page.compon
 import { TitleComponent } from './components/partials/title/title.component';
 import { NotFoundComponent } from './components/partials/not-found/not-found.component';
 import { LoginPageComponent } from './components/pages/login-page/login-page.component';
-import { ReactiveFormsModule } from '@angular/forms';
-
+import {ReactiveFormsModule} from '@angular/forms';
+import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 @NgModule({
   declarations: [
     AppComponent,
@@ -30,11 +30,13 @@ import { ReactiveFormsModule } from '@angular/forms';
    ],
   imports: [
     BrowserModule,
+    BrowserAnimationsModule,
     AppRoutingModule,
     RatingModule,
     HttpClientModule,
     ReactiveFormsModule
-  ],
+ 
+   ],
   providers: [],
   bootstrap: [AppComponent]
 })
